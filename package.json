@@ -1,0 +1,35 @@
+{
+  "name": "project0-express-api-tianzengliu",
+  "version": "1.0.0",
+  "description": "\u0016Expense Reimbursement System (ERS) API",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "nodemon --exec ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1905-javareact/project0-express-api-TianzengLiu.git"
+  },
+  "author": "Tianzeng Liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1905-javareact/project0-express-api-TianzengLiu/issues"
+  },
+  "homepage": "https://github.com/1905-javareact/project0-express-api-TianzengLiu#readme",
+  "dependencies": {
+    "@types/pg": "^7.4.14",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "pg": "^7.11.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "@types/express-session": "^1.15.12",
+    "nodemon": "^1.19.0",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  }
+}
